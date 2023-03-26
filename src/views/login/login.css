@@ -1,0 +1,31 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 5px 0;
+}
+
+ul li {
+    height: 15px;
+    float: left;
+}
+
+ul .no-account {
+    float: right;
+}
+
+ul a {
+    color: #666;
+}
+
+.am-list-body .am-list-item .am-input-control>input {
+    font-size: 14px;
+}

@@ -1,0 +1,8 @@
+.am-list-item .am-input-control > input {
+    font-size: 13px;
+    color: #666;
+}
+.am-textarea-control textarea {
+    font-size: 12px;
+    color: #666;
+}

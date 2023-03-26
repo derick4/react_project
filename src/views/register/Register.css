@@ -1,0 +1,19 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 200px;
+}
+
+.reg-error {
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    margin: 3px 0;
+}
+.am-list-body .am-list-item .am-input-control>input {
+    font-size: 14px;
+}
+
+

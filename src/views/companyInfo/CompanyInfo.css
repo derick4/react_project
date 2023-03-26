@@ -1,0 +1,17 @@
+#comp,#btn0 {
+    background-color: #587cf7;
+}
+
+.am-list-item .am-textarea-control > textarea {
+    font-size: 13px;
+    color: #666;
+}
+
+.am-textarea-label-5 {
+    font-size: 15px;
+}
+
+.am-list-body .am-list-item .am-input-control>input {
+    font-size: 12px;
+    color: #666;
+}

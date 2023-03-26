@@ -1,0 +1,454 @@
+.am-navbar-title,
+.am-button,
+.am-list-item .am-input-label,
+.am-list-item .am-input-control>input {
+    font-size: 15px;
+}
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: #587cf7;
+}
+
+.am-search {
+    margin-top: 45px;
+}
+
+.am-search-input {
+    border-radius: 15px !important;
+}
+
+/* 录播图开始    */
+.swiper-container {
+    width: 96%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.swiper-container .swiper-slide>img {
+    width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
+/* 录播图结束   */
+
+/* 完善信息界面开始 */
+.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content .am-grid-icon {
+    width: 33px !important;
+}
+
+/* 完善信息界面结束 */
+
+/* userlist开始 */
+.user-wrapper {
+    margin-bottom: 45px;
+}
+
+.am-card-header-extra {
+    color: #587cf7;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.am-card-header-content {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.am-card-header-content>img {
+    width: 30px;
+}
+
+.am-card-body {
+    padding: 10px 15px 6px
+}
+
+.am-card-body>div {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.taps {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-bottom: 5px;
+}
+
+.taps li {
+    padding: 3px;
+    background-color: #EAEAEF;
+    color: #444;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 15px;
+}
+
+
+/* userlist 结束 */
+
+/* 底部导航栏开始 */
+.am-tab-bar {
+    /*使导航始终在底部*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    height: inherit;
+    /*高度包裹内容*/
+}
+
+.am-tabs-tab-bar-wrap {
+    background-color: #fff;
+}
+
+.am-tab-bar-bar .am-tab-bar-tab-title {
+    transform: scale(.9);
+}
+
+/* 底部导航栏结束 */
+
+/* 个人中心开始 */
+.am-result {
+    margin-top: 45px;
+}
+
+.my-info {
+    width: 100%;
+    height: 120px;
+    background-color: #587cf7;
+    margin-top: 45px;
+    padding: 30px 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.my-info>div {
+    float: left;
+    color: #fff;
+}
+
+.my-info .editor {
+    float: right;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.my-info .name {
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.my-info .img {
+    margin-right: 15px;
+}
+
+.history {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #587cf7;
+    margin: 0;
+}
+
+.history>li {
+    width: 30px;
+    height: 50px;
+    text-align: center;
+}
+
+.history>li .num {
+    display: block;
+}
+
+.history span {
+    line-height: 20px;
+}
+
+.history .num {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.history .text {
+    font-size: 12px;
+    color: #ddd;
+    font-weight: 100;
+}
+
+.am-list-item .am-list-line .am-list-extra {
+    font-size: 12px;
+    color: #666;
+}
+
+
+/* 个人中心结束 */
+
+
+/* 聊天界面开始 */
+
+.am-tab-bar .am-list-item.am-input-item {
+    position: relative;
+}
+
+.am-list-item .am-input-extra {
+    max-height: 30px;
+}
+
+.am-list-item .am-input-extra .send {
+    display: inline-block;
+    width: 44px;
+    height: 27px;
+    line-height: 27px;
+    background-color: #587cf7;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.am-list-item .am-input-extra .send1 {
+    background-color: #7892e8;
+}
+
+.am-list-item .am-input-extra .emoji {
+    position: absolute;
+    bottom: 13px;
+    right: 65px;
+    z-index: 999;
+    font-size: 20px;
+}
+
+.msg-wrapper {
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+
+.msg-wrapper>div {
+    float: left;
+}
+
+.img>div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.my-content,
+.content {
+    width: auto;
+    max-width: 75%;
+    height: inherit;
+    word-break: break-all;
+    line-height: 1.5;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    background-color: #EAEAEF;
+}
+
+
+/*我的内容和头像*/
+.my-msg-wrapper {
+    float: right;
+    width: 80%;
+    max-width: 80%;
+    overflow: hidden;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+.my-msg-wrapper>div {
+    float: right;
+}
+
+.my-content {
+    position: relative;
+    top: 0;
+    background-color: #587cf7;
+    color: #fff;
+}
+
+.my-msg-wrapper .my-img {
+    float: right;
+    margin-left: 10px;
+
+}
+
+.am-tab-bar .am-list-item.am-input-item {
+    background: #eee;
+}
+
+.am-tab-bar .am-list-item .am-input-control {
+    width: 70%;
+}
+
+.am-tab-bar .am-list-item .am-input-control>input {
+    background: #fff;
+    padding: 4px;
+    border-radius: 20px;
+    width: 85%;
+    padding-left: 10px;
+}
+
+.am-grid .am-flexbox .am-flexbox-item .am-grid-item-content {
+    padding: 11px 0;
+}
+
+.am-tab-bar .am-grid .am-flexbox .am-flexbox-item .am-grid-item-content .am-grid-item-inner-content .am-grid-text {
+    font-size: 20px;
+}
+
+.am-list-body .am-badge {
+    position: relative;
+    top: -7px;
+    right: 10px;
+}
+
+/* 聊天界面结束 */
+
+/* 消息列表开始 */
+
+.am-list-item {
+    padding-left: 10px;
+}
+
+.am-list-item .am-list-thumb:first-child {
+    margin-right: 10px;
+}
+
+.am-list-item .am-list-thumb>img {
+    width: 35px;
+    height: 35px;
+}
+
+.am-list-item .am-list-line .am-list-brief {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.am-list-item {
+    position: relative;
+}
+
+.am-list-item .time {
+    position: absolute;
+    top: 33px;
+    right: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.am-list-item .am-list-line .am-list-content {
+    font-size: 14px;
+}
+
+/* 消息列表结束 */
+
+/* 用户详情界面开始 */
+
+.am-navbar-light {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.am-notice-bar {
+    position: fixed;
+    top: 45px;
+    z-index: 100;
+    width: 100%;
+}
+
+.sendJL {
+    position: fixed !important;
+    bottom: 15px;
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+
+.user-wrapper1 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.user-wrapper1 .username {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.user-wrapper1 .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 20px;
+    color: #999;
+    transform: translateY(-50%);
+}
+
+.user-detail {
+    margin: 0
+}
+
+.user-detail .am-card-body .desc-header {
+    font-size: 14px;
+}
+
+.user-detail .am-card-body>.content1 {
+    width: 90%;
+    padding: 5px 10px;
+    margin: 0;
+    color: #666;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+
+/* 用户详情界面结束 */
+
+/* 编辑简历界面开始 */
+.resume-wrapper div {
+    font-size: 14px;
+}
+
+.resume-wrapper div .am-input-control>input {
+    font-size: 13px;
+    color: #666;
+}
+
+.resume-wrapper div .am-textarea-control>textarea {
+    font-size: 13px;
+    color: #666;
+}
+
+
+/* 编辑简历界面结束 */

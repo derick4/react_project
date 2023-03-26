@@ -1,0 +1,30 @@
+.am-search.search-bar1 {
+    margin: 0;
+}
+
+.am-search.search-bar1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.am-search.search-bar1 {
+    width: 88%;
+    padding-right: 5%;
+}
+
+.left svg {
+    position: fixed;
+    top: 0;
+    padding:0 10px;
+    width: 4%;
+    height: 44px;
+    z-index: 999;
+    font-size: 16px;
+    color: #666;
+    background-color: #EFEFF4;
+    text-align: center;
+}
